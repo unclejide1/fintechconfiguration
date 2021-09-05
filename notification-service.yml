@@ -1,4 +1,12 @@
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: microservices95@gmail.com
+    password: microservices1.
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
   datasource:
     # Connection url for the database "fintech"
     url: ${SPRING_DATASOURCE_URL:jdbc:mysql://${DB_HOST:localhost}:3306/fintech?createDatabaseIfNotExist=true&userSSL=false&serverTimezone=UTC}
@@ -21,6 +29,3 @@ spring:
       # the project
       ddl-auto: update
     show-sql: true
-
-gateway:
-  ip: 192.168.1.9
