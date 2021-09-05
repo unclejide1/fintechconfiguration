@@ -9,7 +9,7 @@ spring:
       starttls.enable: true
   datasource:
     # Connection url for the database "fintech"
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://${DB_HOST:localhost}:3306/fintech?createDatabaseIfNotExist=true&userSSL=false&serverTimezone=UTC}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://${DB_HOST:localhost}:3306/fintechapp?createDatabaseIfNotExist=true&userSSL=false&serverTimezone=UTC}
     # Username and secret
     username: ${SPRING_DATASOURCE_USERNAME:root}
     password: ${SPRING_DATASOURCE_PASSWORD:1007}
@@ -27,7 +27,7 @@ spring:
       # Hibernate ddl auto (create, create-drop, update): with "update" the database
       # schema will be automatically updated accordingly to java entities found in
       # the project
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
 
 security:
