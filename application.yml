@@ -11,7 +11,7 @@ secured:
     uri: /accounts/api/v1/auth/**
     header: Authorization
     prefix: Bearer 
-    jwtSecret: SecuredSecretKeyabracadabrajide
+    jwtSecret: SecuredSecretKeyabracadabrajide04
     jwtExpirationMs: 86400000
 
   
