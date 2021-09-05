@@ -29,3 +29,7 @@ spring:
       # the project
       ddl-auto: update
     show-sql: true
+
+security:
+  basic:
+    enabled: false
