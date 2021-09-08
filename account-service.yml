@@ -1,9 +1,9 @@
 spring:
   datasource:
     # Connection url for the database "fintech"
-    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://${DB_HOST:localhost}:3306/fintechapp?createDatabaseIfNotExist=true&userSSL=false&serverTimezone=UTC}
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://${DB_HOST:3.138.86.17}:3306/fintechapp?createDatabaseIfNotExist=true&userSSL=false&serverTimezone=UTC}
     # Username and secret
-    username: ${SPRING_DATASOURCE_USERNAME:root}
+    username: ${SPRING_DATASOURCE_USERNAME:ofor}
     password: ${SPRING_DATASOURCE_PASSWORD:1007}
     initialization-mode: always
     dbcp2:
