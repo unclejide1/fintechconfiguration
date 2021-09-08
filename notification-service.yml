@@ -33,3 +33,7 @@ spring:
 security:
   basic:
     enabled: false
+
+gateway:
+  public:
+    ip: 3.16.180.134
