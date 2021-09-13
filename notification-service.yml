@@ -2,8 +2,8 @@ spring:
   mail:
     host: smtp.mail.yahoo.com
     port: 587
-    username: fintechapp@yahoo.com
-    password: hyhcidvjwtuuwkpy
+    username: finantechie@yahoo.com
+    password: tncgxeqsvlnsrdoh
     properties.mail.smtp:
       auth: true
       starttls.enable: true
